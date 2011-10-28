@@ -1,0 +1,12 @@
+diff -up cairo-1.10.0/configure.pixman184 cairo-1.10.0/configure
+--- cairo-1.10.0/configure.pixman184	2010-11-11 11:02:16.945188496 -0500
++++ cairo-1.10.0/configure	2010-11-11 11:02:22.674158766 -0500
+@@ -31370,7 +31370,7 @@ image_NONPKGCONFIG_LIBS="$ac_env_image_N
+ image_NONPKGCONFIG_EXTRA_LIBS="$ac_env_image_NONPKGCONFIG_EXTRA_LIBS_value"
+ 
+ 
+-  pixman_REQUIRES="pixman-1 >= 0.18.4"
++  pixman_REQUIRES="pixman184-1 >= 0.18.4"
+ 
+ pkg_failed=no
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for pixman" >&5
