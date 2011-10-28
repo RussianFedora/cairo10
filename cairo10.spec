@@ -7,7 +7,7 @@
 Summary:	A 2D graphics library
 Name:		%{shortname}10
 Version:	1.10.2
-Release:	1%{?dist}.R
+Release:	1.el6.R
 URL:		http://cairographics.org
 #VCS:		git:git://git.freedesktop.org/git/cairo
 Source0:	http://cairographics.org/snapshots/%{shortname}-%{version}.tar.gz
@@ -200,7 +200,7 @@ mv %{buildroot}%{_libdir}/%{shortname} %{buildroot}%{_libdir}/%{name}
 %{_libdir}/%{name}
 
 %changelog
-* Fri Oct 28 2011 Arkady L. Shane <ashejn@russianfedora> - 1.10.2-1.R
+* Fri Oct 28 2011 Arkady L. Shane <ashejn@russianfedora> - 1.10.2-1.el6.R
 - build compat package for cairo 1.8.8
 
 * Tue Feb  1 2011 Tom Callaway <spot@fedoraproject.org> - 1.10.2-2
